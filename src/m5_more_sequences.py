@@ -88,7 +88,10 @@ def sum_radii(circles):
     #
     #       Instead, use explicit loops, as you have for other problems.
     # -------------------------------------------------------------------------
-
+    x = 0
+    for k in range(len(circles)):
+        x = x + circles.radius
+    return x
 
 ###############################################################################
 # Some problems iterate (loop) through PART of the sequence,
